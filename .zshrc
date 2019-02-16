@@ -56,7 +56,7 @@ POWERLEVEL9K_VCS_SHORTEN_DELIMITER=".."
 POWERLEVEL9K_TIME_FOREGROUND='015'
 POWERLEVEL9K_TIME_BACKGROUND='023'
 
-POWERLEVEL9K_TIME_FORMAT="%D{%b %m, %Y \uF073 | %I:%M %P}"
+POWERLEVEL9K_TIME_FORMAT="%D{%a, %e %b %Y \uF073 | %I:%M %p}"
 
 # BATTERY
 POWERLEVEL9K_BATTERY_LEVEL_FOREGROUND=(red3 darkorange3 darkgoldenrod gold3 yellow3 chartreuse2 mediumspringgreen green3 green3 green4 darkgreen)
@@ -70,3 +70,6 @@ source  ~/powerlevel9k/powerlevel9k.zsh-theme
 source /home/s4k1b/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /var/lib/gems/2.5.0/gems/colorls-1.1.1/lib/tab_complete.sh
+
+
+alias ls='colorls'
